@@ -65,7 +65,7 @@ The S3 bucket contains website files (`index.html`, `style.css`, `script.js`) an
 
 ## 2️⃣ S3 Bucket Policy
 
-![Bucket Policy](bucket-policy.png)
+![Bucket Policy](screenshots/bucket-policy.png)
 
 The bucket policy grants public read access using:
 
@@ -84,7 +84,7 @@ This enables static website access while restricting write operations.
 
 ## 3️⃣ IAM User Configuration
 
-![IAM](iam.png)
+![IAM](screenshots/iam.png)
 
 IAM user created with appropriate AWS managed policies to control secure resource access.
 
@@ -92,7 +92,7 @@ IAM user created with appropriate AWS managed policies to control secure resourc
 
 ## 4️⃣ EC2 Instance Running
 
-![EC2](ec2.png)
+![EC2](screenshots/ec2.png)
 
 An EC2 instance was launched and verified in running state.
 
@@ -100,16 +100,16 @@ An EC2 instance was launched and verified in running state.
 
 ## 5️⃣ RDS Database Instance
 
-![RDS](rds.png)
+![RDS](screenshots/rds.png)
 
 A MySQL RDS instance was configured and successfully deployed.
 
 ---
 
 ## 6️⃣ Website Deployment via S3 Endpoint
-![Website] (static.png)
+![Website] (screenshots/static.png)
 
-![Website](website.png)
+![Website](screenshots/website.png)
 
 The website is accessible using the official S3 Website Endpoint after enabling static website hosting.
 
