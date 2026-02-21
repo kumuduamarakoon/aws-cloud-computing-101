@@ -106,16 +106,23 @@ A MySQL RDS instance was configured and successfully deployed.
 
 ---
 
-### Website Output (S3 Static Hosting Enabled)
+## 6️⃣ Website Output (S3 Static Hosting Enabled)
 
 ![Website](screenshots/static.png)
 
+This screenshot shows the static website successfully hosted using Amazon S3 Static Website Hosting.
+
 ---
 
-## 6️⃣ Website Deployment via S3 Endpoint
-![Website] (screenshots/static.png)
+## 7️⃣ Website Deployment via S3 Endpoint
 
-The website is accessible using the official S3 Website Endpoint after enabling static website hosting.
+The website is accessible using the official S3 Website Endpoint provided by AWS after enabling static website hosting.
+
+Example endpoint format:
+
+http://bucket-name.s3-website-region.amazonaws.com
+
+This confirms successful cloud-based static website deployment.
 
 ---
 
