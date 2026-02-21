@@ -116,11 +116,13 @@ This screenshot shows the static website successfully hosted using Amazon S3 Sta
 
 ## 7️⃣ Website Deployment via S3 Endpoint
 
+![Website](screenshots/website.png)
+
 The website is accessible using the official S3 Website Endpoint provided by AWS after enabling static website hosting.
 
 Example endpoint format:
 
-http://bucket-name.s3-website-region.amazonaws.com
+http://mybucket121231212.s3-website.eu-north-1.amazonaws.com
 
 This confirms successful cloud-based static website deployment.
 
